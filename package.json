@@ -1,0 +1,27 @@
+{
+  "name": "gulp.tailwind",
+  "version": "1.0.0",
+  "description": "Yet another gulp boilerplate",
+  "author": "Renat Galin <rensite@yandex.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp watch",
+    "build": "NODE_ENV='production' gulp build"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject-string": "^1.1.2",
+    "gulp-nunjucks": "^5.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
