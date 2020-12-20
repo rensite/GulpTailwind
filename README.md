@@ -15,7 +15,7 @@ However, Nunjucks can be replaced with Twig or Jinja2.
 ## How to use
 
 Clone the repo:
-`git clone git@github.com:rensite/gulpTailwind.git`
+`git clone git@github.com:rensite/GulpTailwind.git`
 
 Install packages:
 
